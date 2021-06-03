@@ -1,3 +1,9 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2020 Froala Labs
+ */
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -87,7 +93,27 @@
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow: visible; }
-
+/*.fr-view[dir="rtl"] blockquote {
+  border-left: none;
+  border-right: solid 2px #5E35B1;
+  margin-right: 0;
+  padding-right: 5px;
+  padding-left: 0; }
+  .fr-view[dir="rtl"] blockquote blockquote {
+    border-color: #00BCD4; }
+    .fr-view[dir="rtl"] blockquote blockquote blockquote {
+      border-color: #43A047; }
+.fr-view blockquote {
+  border-left: solid 2px #5E35B1;
+  margin-left: 0;
+  padding-left: 5px;
+  color: #5E35B1; }
+  .fr-view blockquote blockquote {
+    border-color: #00BCD4;
+    color: #00BCD4; }
+    .fr-view blockquote blockquote blockquote {
+      border-color: #43A047;
+      color: #43A047; }*/
   .fr-view span.fr-emoticon {
     font-weight: normal;
     font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -33421,9 +33447,9 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #608067 !important;
         }
 
+        
 
-
-
+        
         .u-border-custom-color-2,
         .u-separator-custom-color-2:after
         {
@@ -33470,9 +33496,9 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #56735d !important;
         }
+        
 
-
-
+        
         .u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2[class*="u-border-"]
@@ -33531,7 +33557,7 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #608067 !important;
         }
 
-
+        
 
         /** common-rules **/
         h1.u-title
@@ -33691,7 +33717,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /*end-media rules*/
         /** publish-rules **/
 
-
+        
 
         /** cms-rules **/
         /*begin-responsive rules*/
@@ -33803,7 +33829,7 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-
+    
 
 
 /*end-variables sitestylecss*/
@@ -33850,12 +33876,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 575px) {
   .u-header .u-image-1 {
     width: auto;
+    height: auto;
   }
 }
-
 .u-footer .u-sheet-1 {
   min-height: 20px;
 }
@@ -33864,6 +33891,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
- /*begin-variables base-font-size*/
+ /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
