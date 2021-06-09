@@ -83,10 +83,10 @@
 }
 
 .u-section-1 .u-btn-1 {
-  border-style: solid;
-  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
   background-image: none;
 }
 
@@ -135,6 +135,10 @@
   .u-section-1 .u-form-1 {
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-size: 1rem;
   }
 }
 
@@ -253,7 +257,7 @@
   font-size: 0.875rem;
   font-weight: 700;
   border-style: none;
-  margin: 7px auto 25px 0;
+  margin: 0 auto 0 0;
 }
 
 @media (max-width: 1199px) {
